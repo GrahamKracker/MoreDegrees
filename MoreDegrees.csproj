@@ -28,4 +28,5 @@
         </Reference>
     </ItemGroup>
     <Import Condition="Exists('..\..\btd6.targets')" Project="..\..\btd6.targets"/>
-    <Import Condition="!Exists('..\..\btd6.targets')" Project="..\btd6.targets"/></Project>
+    <Import Condition="!Exists('..\..\btd6.targets')" Project="..\btd6.targets"/>
+</Project>
